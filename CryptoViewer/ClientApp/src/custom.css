@@ -1,0 +1,322 @@
+/* Provide sufficient contrast against white background */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+   background-color: #202124;
+   font-family: Montserrat;
+}
+a {
+  color: white;
+}
+.container-card {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h5{
+  text-align: left;
+}
+
+.card-currency {
+  margin: 5px;
+}
+
+.centered-one-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.items-body{
+  width: 16vw;
+  padding: 15px;
+  background-color: #242528;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.items-body:hover{
+  background-color:#323639;
+  transition: 0.6s;
+}
+
+.name{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.name-asset{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  }
+.name-currency{
+  background-color: #2d2f34;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: 100;
+  color: rgb(140, 140, 140);
+  border-radius: 10px;
+  margin-left: auto; 
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price{
+  font-size: 15px;
+  font-weight: 300;
+}
+.data{
+  font-size: 10px;
+  font-weight: 100;
+  color: rgb(140, 140, 140);
+  text-align: right;
+}
+
+.searcher{
+  width: 25vw;
+  height: 5.5vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #242528;
+  border-radius: 100px;
+  border: transparent;
+  color: #cecece;
+  font-size: 18px;
+  outline-color: transparent;
+  transition: 0.6s;
+}
+.searcher:focus{
+  outline: none !important;
+  width: 28vw;
+  background-color:#222327;
+  transition: 0.6s;
+}
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3a3939; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #252525; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1f1f1f; 
+}
+
+/* CUSTOM SCROLLBAR */
+
+.CryptoViewerLabel {
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbarPanel{
+  background-color: transparent;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6);
+  backdrop-filter: blur(15px);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.page-name {
+  padding-top: 80px;
+}
+
+.navbarPanelItem{
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.iconHome{
+  width: 26px;
+  fill: white;
+  transition: 0.4s;
+}
+.iconHome:hover {
+  fill:#282C2F;
+  transition: 0.6s;
+}
+
+.iconConverter{
+  width: 26px;
+  fill: white;
+  transition: 0.4s;
+}
+.iconConverter:hover {
+  fill:#282C2F;
+  transition: 0.6s;
+}
+
+.iconSearch{
+  width: 30px;
+  margin-right: 25px;
+}
+
+.ButtonStyle{
+  width: 30px;
+  height: 10px;
+  background-color:rgb(195, 195, 195);
+  border-radius: 5px;
+  border: transparent;
+  transition: 0.4s;
+  margin-right: auto; 
+  margin-left: 0;
+}
+
+.ButtonStyle:hover {
+  background-color:#282C2F;
+  transition: 0.6s;
+}
+
+.inputForm{
+  width: 18vw;
+  height: 5.5vh;
+  background-color:#202124;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: transparent;
+  color: white;
+  font-size: 18px;
+  outline-color: transparent;
+  transition: 0.4s;
+}
+.inputForm:focus {
+  outline: none !important;
+  padding-left: 10px; 
+  transition: 0.6s;
+}
+
+.centered-currencyInfo {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.convertButton{
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  background-color:#550199;;
+  color:white;
+  font-size: bold;
+  border-radius: 10px;
+  border: transparent;
+  transition: 0.4s;
+}
+
+.convertButton:hover {
+  background-color:#222327;
+  transition: 0.6s;
+}
+
+.searcherIconPosition{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 10px 0px 0px;
+  background-color: #222327;
+  border-radius: 100px;
+  height: 5.5vh;
+  margin-bottom: 5px;
+}
+
+.searcherIconStyle{
+  background-color: transparent;
+  align-items: center;
+  text-align: center;
+  color: rgb(140, 140, 140);
+  font-size: 15px;
+  font-weight: 50;
+  border: none;
+  transition: 0.4s;
+}
+
+.searcherIconStyle:hover{
+  color:white;
+  transition: 0.6s;
+}
+
+.upIconPriceChange{
+  fill:green;
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+.downIconPriceChange{
+  fill:red;
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+.showAllButton{
+  width: 80px;
+  height: 6px;
+  background-color:rgb(195, 195, 195);
+  border-radius: 5px;
+  border: transparent;
+  transition: 0.4s;
+  margin-right: auto; 
+  margin-left: 0;
+}
+
+.showAllButton:hover {
+  background-color:#282C2F;
+  transition: 0.6s;
+}
+
+small{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(211, 211, 211);
+}
+
+
+
+
+
+
+
+

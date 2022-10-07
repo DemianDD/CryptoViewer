@@ -1,0 +1,75 @@
+.CurrencyInfoPanel{
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.CurName{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.CurInfoText{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.CurInfoPosition{
+  width: 43vw;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.CurInfoBlock{
+  background-color:#242528;
+  border-radius: 10px;
+  width: 20vw;
+  height: 14vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 5px;
+}
+
+.CurDescriptions {
+  background-color: transparent;
+  border-color: #242528;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 20vw;
+  height: 55vh;
+  text-align: justify;
+  padding: 10px 15px 10px 15px;
+  margin: 5px;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+div::-webkit-scrollbar {
+  display: none; 
+  }
+
+.textAlignUpdateAt{
+  text-align: left;
+  justify-content: left;
+  color: #6f6f6f;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.bgPrice{
+  background:#550199;
+}
+
+small{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(211, 211, 211);
+}

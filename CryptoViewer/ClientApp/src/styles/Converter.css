@@ -1,0 +1,61 @@
+.ConverterPanel{
+    background-color: #242528;
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.4);
+  }
+
+  .listboxStyle{
+    width: 13vw;
+    height: 5.5vh;
+    border: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    background: #202124;
+    color: white;
+    border-radius: 15px;
+    outline-color: transparent;
+    transition: 0.4s;
+  }
+  .listboxStyle:hover{
+    background-color: #313337;
+    transition: 0.6s;
+  }
+  .listboxStyle:focus{
+    outline: none !important;
+  }
+
+  .listboxPosition{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .resultPanel{
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+    margin-top: 2px;
+  }
+
+  .hrLine{
+    width: 60%;
+    height: 1.5px;
+    background-color: #202124;
+    border-radius: 100px;
+    margin-top: 25px;
+  }
+
+  small{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(211, 211, 211);
+  }
